@@ -10,6 +10,6 @@
     - Need elaboration on this one
 - [ ] More example diagrams
     - Need more info on this one
-- [ ] Bearing off, change "of like value" to "of equal value"
+- [x] Bearing off, change "of like value" to "of equal value"
 - [ ] Elaborate "meander"
 - [x] Update Stimy section to include stuff about even number of spaces separation
