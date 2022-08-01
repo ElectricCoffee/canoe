@@ -145,7 +145,7 @@
      inkscape:cx="253.10081"
      inkscape:cy="374.265"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
@@ -555,8 +555,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="cubes"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect1028"
@@ -865,7 +864,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="arrow"
-     style="display:inline;opacity:1">
+     style="display:inline;opacity:1"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#808080;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DiamondS)"
        d="m 87.999997,38.000004 7e-6,25 H 13 l 4e-6,75.000016"
