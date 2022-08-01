@@ -3,7 +3,15 @@ Before moving a cube, the cube must first be rotated to a different face.
 This rotation is entirely based on whether the die rolled was even or odd.
 After the cube has been rotated, it is then moved the indicated number of spaces orthogonally in any direction on the board, though never crossing back over the starting line.
 
-Cubes also cannot pass over each other.
+It is important to note the following restrictions:
+\begin{itemize}
+    \item Cubes cannot move diagonally.
+    \item Cubes cannot pass over each other.
+    \item A cube can only be moved once in a turn.
+    \item Cubes cannot enter the same square more than once on a turn.
+    \item Once a cube leaves the Bank, it cannot re-enter unless as part of a stack (See \textit{Bearing Off} Section~\ref{sec:bearing-off}).
+    \item Cubes in the Bank must finish their move on the Grid, if able.
+\end{itemize}
 
 \paragraph{If the Die Shows Even} The cube's face value is increased to the next available value
 $$1 \to 8 \to 16 \to 24 \to 32 \to 40 \to 1$$
@@ -12,7 +20,7 @@ $$40 \to 32 \to 24 \to 16 \to 8 \to 1 \to 40$$
 
 \note In either case, a roll-over happens if a player tries to increase or decrease past the highest or lowest value respectively.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=8cm]{../graphics/movement}
     \caption{Example Move}
