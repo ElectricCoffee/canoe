@@ -7,7 +7,7 @@ Sets are special because they break the normal movement rules:
     \item Sets can jump over \textbf{any number} of adjacent other cubes or sets as part of their movement (see Figure~\ref{fig:jump}). This jump counts as just one move. Single cubes \textbf{cannot} jump.
     \item When moving sets players can \textit{add together} the results of both dice. This is not possible when moving cubes.
     \item Sets cannot pinch, only jump.
-    \item Sets must move directly towards the pin on the board, and are not allowed to meander.
+    \item Sets must move directly towards the pin on the board using the shortest path possible.
 \end{enumerate}
 \begin{figure}[!h]
     \centering
@@ -17,14 +17,16 @@ Sets are special because they break the normal movement rules:
 \end{figure}
 To then bear off, a player must move the stack of cubes over the pin (black dot) on the starting line and into the bank, before then having to move towards the leather patch and over the line on the backmost row.
 
+Bearing off requires rolling the exact required number. If the cube is 3 spaces from the line, then a roll of \epsdice{3} or a roll of \epsdice{2} and \epsdice{1} are required to get over the line.
+
 \paragraph{Jumping Example}
 Figure~\ref{fig:jump} illustrates an example jump.
-Black rolled a \epsdice{3} and a \epsdice{5}, and wishes to move their stack of 16s.
+Black rolled \epsdice{3} and \epsdice{5}, and wishes to move their stack of 16s.
 To get into the bank as quickly as possible, Black uses their \epsdice{3} and makes use of stacks' ability to jump over other pieces by first moving one down, then all the way over all of Ivory's pieces as the second move, only to end up inside the bank with a third move.
 
-\paragraph{Note} Sets cannot be formed with cubes that have just left the bank.
+\note Sets cannot be formed with cubes that have just left the bank.
 
-\paragraph{Note} To bear off, a player needs the exact number or number combination to make it to the leather patch. If the roll is not an exact match, it will not work.
+\note The rule about getting across the line rolling the exact number specifically means doing so in the fewest number of steps. Players are not allowed to artificially extend the path by moving in a zig-zag formation within the bank.
 
 \subsubsection{Canoe}
 The first time a player bears off their cubes, \textit{both} of the cubes are pocketed for scoring.
