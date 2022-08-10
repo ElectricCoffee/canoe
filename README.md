@@ -1,4 +1,4 @@
-# Canoe
+# Canoe v.2020.8.10.0
 Canoe is an abstract board game for two players in the style of Backgammon.
 Canoe was developed by Bruce Alsip.
 
