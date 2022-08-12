@@ -1,5 +1,11 @@
 # To Do
 
+## v.2022.8.12.0
+- [ ] Add Strategy section
+- [ ] Add more examples
+- [ ] Add nice front cover
+- [ ] Add table of contents
+
 ## v.2022.8.1.0
 - [ ] Add schematic which outlines the following:
     - [ ] where to roll dice
